@@ -13,7 +13,7 @@ nohup python -m train.train --data_file train_data --props logp --batch_size 100
 ```
 
 Evaluation codes is stored in the notebook
-## Result
+## Result (Compared with traditional machine learning model)
 
 ### Gradient boosting
 
@@ -30,3 +30,7 @@ Evaluation codes is stored in the notebook
 ### My MolGNN
 
 ![gb](assets/MolGNN.png)
+
+## Further improvement 
+
+Some other properties could be augmented into the node matrix (descriptors), such as mol weight, formal charge, etc. I didn't test this step due to the time cost, either in the future unless I need to use graph neural network in future works (but might in different applications). If you have test this, you can report it in issue and share the opinion with me🥸.
