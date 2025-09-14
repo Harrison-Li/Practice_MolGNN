@@ -1,0 +1,5 @@
+# Ignore folders related to IDEs
+.vscode/
+
+# Ignore temporary files created by the operating system
+.DS_Store
